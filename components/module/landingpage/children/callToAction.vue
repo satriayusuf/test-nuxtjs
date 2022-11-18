@@ -9,7 +9,10 @@
         </div>
       </div>
       <div class="w-2/6">
-        <div class="mt-5">
+        <a href="https://dashboard.kiriminaja.com/mbr20/register" target="_blank" class="px-8 py-3 bg-white rounded hover:opacity-70 text-purple-900 font-bold text-3xl">
+          Daftar Sekarang
+        </a>
+        <!-- <div class="mt-5">
           <img
             src="https://kiriminaja.com/assets/service/v2/googleplay-compressed.png"
             alt=""
@@ -22,7 +25,7 @@
             alt=""
             class="cursor-pointer hover:opacity-80 w-3/5"
           />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

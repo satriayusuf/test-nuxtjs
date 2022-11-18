@@ -32,11 +32,11 @@ export default {
         },
         {
           name: "Integrasi Api",
-          path: "/integrasi-api",
+          path: "#",
         },
         {
           name: "About",
-          path: "/about",
+          path: "#",
         },
       ]
     }

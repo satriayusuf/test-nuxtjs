@@ -4,7 +4,7 @@
     <p class="text-center mt-5 text-gray-500">
       Masih kurang? Yuk explore sekarang biar ngga penasaran
     </p>
-    <div class="flex gap-6 mt-16">
+    <div class="block lg:flex gap-6 mt-16">
       <div class="w-full">
         <img
           src="https://kiriminaja.com/assets/banner-home-2.png"
@@ -12,7 +12,7 @@
           alt=""
         />
       </div>
-      <div class="w-full">
+      <div class="w-full mt-10 lg:mt-0">
         <div
           class="p-5 bg-purple-50 border-white border-2 flex gap-4 items-center"
           v-for="content in features"

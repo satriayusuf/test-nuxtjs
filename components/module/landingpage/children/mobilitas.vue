@@ -3,7 +3,7 @@
     <p class="text-center text-2xl font-bold mb-16">
       Untuk Semua Kebutuhan Pengiriman Paketmu
     </p>
-    <div class="mt-3 grid grid-cols-3 gap-6 justify-between">
+    <div class="mt-3 grid grid-cols-2 lg:grid-cols-3 gap-6 justify-between">
       <div
         v-for="content in listMobilitas"
         class="w-full bg-purple-50 rounded border-purple-900"

@@ -1,22 +1,25 @@
 <template>
-  <div class="px-28 py-20">
-    <div class="flex gap-6">
-      <div class="w-4/6">
-        <div>
+  <div class="px-28 py-20 flex justify-center lg:block">
+    <div class="lg:flex gap-6 lg:text-left text-center">
+      <div class="w-full lg:w-4/6">
+        <div class="flex justify-center lg:block">
+          <div>
+
           <img
             src="https://kiriminaja.com/assets/atrust/svg-logo-primary.svg"
             class="w-1/5"
             alt=""
           />
+          </div>
         </div>
-        <div class="w-1/2">
+        <div class="w-full lg:w-1/2">
           <p class="text-gray-400 font-semibold mt-3">PT. Selalu Siap Solusi</p>
           <p class="mt-3 text-gray-800">{{ contact.location }}</p>
           <p class="mt-3 text-gray-800">{{ contact.email }}</p>
           <p class="mt-3 text-gray-800">{{ contact.phone }}</p>
         </div>
       </div>
-      <div class="w-1/4">
+      <div class="w-full lg:w-1/4">
         <div>
           <p class="text-gray-400 font-semibold mt-3">Tautan Cepat</p>
         </div>
@@ -28,7 +31,7 @@
           </a>
         </div>
       </div>
-      <div class="w-1/4">
+      <div class="w-full lg:w-1/4">
         <div>
           <p class="text-gray-400 font-semibold mt-3">KiriminAja</p>
         </div>

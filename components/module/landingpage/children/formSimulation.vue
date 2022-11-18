@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-purple-50 rounded p-10">
+  <div class="bg-purple-50 rounded p-10 hidden lg:block">
     <div class="flex gap-6 items-center justify-between">
       <div>
         <div>

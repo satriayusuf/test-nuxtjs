@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-gradient-to-br from-purple-900 to-blue-900 w-full pt-10 px-10 rounded">
-    <div class="flex gap-6">
-      <div class="w-2/3">
+  <div class="bg-gradient-to-br from-purple-900 to-blue-900 w-full pt-10 px-5 lg:px-10 rounded">
+    <div class="lg:flex gap-6">
+      <div class="w-2/3 hidden lg:block">
         <img
           src="https://kiriminaja.com/assets/home-2/call-to-action.png"
           class="w-full h-auto"
@@ -9,14 +9,14 @@
         />
       </div>
       <div class="w-full">
-        <h1 class="text-white text-5xl font-bold mt-8 capitalize">
+        <h1 class="text-white text-5xl font-bold mt-8 capitalize text-center lg:text-left">
           Semua bisa mulai kirim paket tanpa ribet !
         </h1>
-        <h2 class="text-white text-lg mt-8">
+        <h2 class="text-white text-lg mt-8 text-center lg:text-left">
           Jadikan pengalaman pengiriman paket lebih mudah dengan
           <strong>KiriminAja</strong>.
         </h2>
-        <div class="flex mt-10 w-2/3">
+        <div class="flex justify-center lg:justify-start mt-10 w-full lg:w-2/3">
           <div>
             <img
               src="https://kiriminaja.com/assets/service/v2/googleplay-compressed.png"
@@ -32,6 +32,13 @@
             />
           </div>
         </div>
+      </div>
+      <div class="w-full lg:hidden flex justify-center mt-10">
+        <img
+          src="https://kiriminaja.com/assets/home-2/call-to-action.png"
+          class="w-full h-auto"
+          alt=""
+        />
       </div>
     </div>
   </div>

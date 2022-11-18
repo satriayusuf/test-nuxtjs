@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="pt-28 px-28">
+    <div class="pt-28 lg:px-28 px-12">
       <section id="carrousel">
         <module-landingpage-children-carrousel />
       </section>

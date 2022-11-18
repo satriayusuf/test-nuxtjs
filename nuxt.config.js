@@ -31,10 +31,24 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
+    '@nuxtjs/composition-api/module',
+    '@pinia/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      '@pinia/nuxt',
+      {
+          autoImports: [
+              // automatically imports `usePinia()`
+              'defineStore',
+              // automatically imports `usePinia()` as `usePiniaStore()`
+              ['defineStore', 'definePiniaStore'],
+          ],
+      },
+    ],
+    '@nuxtjs/axios',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

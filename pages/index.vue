@@ -1,11 +1,18 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div>
+    <base-Navbar />
+    <module-landingpage-LandingPage />
+    <base-Footer />
+  </div>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage'
-}
+<script setup>
+import { useStore } from "@/store/index.js";
+import { onMounted } from "vue";
+
+const test = useStore();
+
+onMounted(() => {
+  console.log(test.selectedMenu);
+});
 </script>
